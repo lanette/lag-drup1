@@ -1,6 +1,6 @@
 docker-compose-yaml: docker-compose.yml
 
-project: lanette-drup1
+project: lanette-lagdrup1
 
 tasks:
   pre-rollout:
