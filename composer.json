@@ -1,6 +1,6 @@
 {
-    "name": "lagoon-examples/drupalnext-base",
-    "description": "Project template for Drupal projects with MariaDB, hosted on Lagoon",
+    "name": "lanette/lag-drup1",
+    "description": "Project template for Drupal projects made from lagoonexamples/drupalnext-base with MariaDB, hosted on Lagoon",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [

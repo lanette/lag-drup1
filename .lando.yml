@@ -1,4 +1,4 @@
-name: drupalnext-base
+name: lag-drup1
 recipe: lagoon
 config:
   flavor: drupal

@@ -1,7 +1,5 @@
-# Base template for Drupal projects hosted on Lagoon
+# Project made from DrupalNext-Base template for Drupal projects hosted on Lagoon
 
-> [!WARNING]  
-> This template is based on the NEXT major release of Drupal, currently Drupal 11, contains dev/alpha/beta releases and should not be used in production.
 
 This template includes everything necessary to run on [Lagoon](https://www.github.com/uselagoon/lagoon) (in both the local development environments or on hosted Lagoon clusters.)
 
@@ -11,8 +9,8 @@ dependencies with [Composer](https://getcomposer.org/). It is based on the [orig
 ## Included Services
 
 This example contains the following services:
-* Drupal 11 (prerelease versions)
-* PHP 8.3
+* Drupal 11 
+* PHP 8.4
 * NGINX
 * MariaDB 10.11
 

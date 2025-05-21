@@ -1,6 +1,6 @@
 docker-compose-yaml: docker-compose.yml
 
-project: drupalnext-base
+project: lanette-drup1
 
 tasks:
   pre-rollout:
