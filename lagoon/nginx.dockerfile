@@ -3,7 +3,7 @@ FROM ${CLI_IMAGE} as cli
 
 FROM uselagoon/nginx-drupal:latest
 
-COPY lagoon/010_location_prepend.conf /etc/nginx/conf.d/drupal/location_prepend_001.conf
+COPY lagoon/location_prepend_001.conf /etc/nginx/conf.d/drupal/location_prepend_001.conf
 RUN fix-permissions /etc/nginx/conf.d/drupal/location_prepend_001.conf
 COPY --from=cli /app /app
 
