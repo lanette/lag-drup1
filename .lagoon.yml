@@ -42,6 +42,7 @@ environments:
   staging:
     routes:
       - nginx:
-          - domain: staging.lanettemiller.com
-
+        - "staging.lanettemiller.com":
+            tls-acme: true
+            insecure: Redirect
 
