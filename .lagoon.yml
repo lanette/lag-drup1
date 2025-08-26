@@ -39,3 +39,9 @@ environments:
         schedule: "M * * * *"
         command: drush cron
         service: cli
+  staging:
+    routes:
+      - nginx:
+          - domain: staging.lanettemiller.com
+
+
