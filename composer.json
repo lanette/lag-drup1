@@ -23,8 +23,12 @@
         "drupal/core-composer-scaffold": "^11.2",
         "drupal/core-project-message": "^11.2",
         "drupal/core-recommended": "^11.2",
+        "drupal/fastly": "^4.0",
+        "drupal/http_cache_control": "^2.6",
         "drupal/lagoon_logs": "3.0.1",
         "drupal/mysql57": "1.0.0",
+        "drupal/purge": "^3.6",
+        "drupal/reverse_proxy_header": "^1.1",
         "drush/drush": "13.6.0",
         "mglaman/composer-drupal-lenient": "1.0.7"
     },
