@@ -30,7 +30,7 @@
         "drupal/purge": "^3.6",
         "drupal/reverse_proxy_header": "^1.1",
         "drupal/ultimate_cron": "^2.0@beta",
-        "drush/drush": "13.6.0",
+        "drush/drush": "^13.7",
         "mglaman/composer-drupal-lenient": "1.0.7"
     },
     "conflict": {
