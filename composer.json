@@ -44,6 +44,7 @@
         "drupal/reverse_proxy_header": "^1.1",
         "drupal/ultimate_cron": "^2.0@beta",
         "drush/drush": "^13.7",
+        "krakjoe/apcu": "^5.1",
         "mglaman/composer-drupal-lenient": "1.0.7"
     },
     "conflict": {
