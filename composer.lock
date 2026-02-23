@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4201693fca48953e66ebd9d9873e1f07",
+    "content-hash": "bee7d823c03c2466a73244fef57fa772",
     "packages": [
         {
             "name": "amazeeio/drupal_integrations",
@@ -1186,6 +1186,50 @@
                 }
             ],
             "time": "2024-02-05T11:35:39+00:00"
+        },
+        {
+            "name": "drupal/apcu_diagnostics",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/apcu_diagnostics.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/apcu_diagnostics-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "524ead0c9b7b1edb301095379ac2bbdc798e0a04"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1709683335",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Burge",
+                    "homepage": "https://www.drupal.org/user/1826152"
+                }
+            ],
+            "description": "The APCu Diagnostics module provides Drupal integration for the APCu tools provided by krakjoe/apcu",
+            "homepage": "https://www.drupal.org/project/apcu_diagnostics",
+            "support": {
+                "source": "https://git.drupalcode.org/project/apcu_diagnostics"
+            }
         },
         {
             "name": "drupal/core",
