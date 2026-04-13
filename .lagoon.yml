@@ -39,6 +39,9 @@ environments:
         - "amazee.lanettemiller.com":
             tls-acme: true
             insecure: Redirect
+        - "customerror.lanettemiller.com":
+            tls-acme: true
+            insecure: Redirect
     cronjobs:
       - name: drush hourly cron
         schedule: "M * * * *"
