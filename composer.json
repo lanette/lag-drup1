@@ -50,7 +50,8 @@
         "drupal/ultimate_cron": "^2.0@beta",
         "drush/drush": "^13.7",
         "krakjoe/apcu": "^5.1",
-        "mglaman/composer-drupal-lenient": "1.0.7"
+        "mglaman/composer-drupal-lenient": "1.0.7",
+        "wikimedia/composer-merge-plugin": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -68,7 +69,8 @@
             "mglaman/composer-drupal-lenient": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
-            "tbachert/spi": true
+            "tbachert/spi": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "extra": {
@@ -81,6 +83,11 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
             "web/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+        },
+        "merge-plugin": {
+          "include": [
+            "web/modules/contrib/native_observability/modules/native_observability_dashboard/composer.libraries.json"
+          ]
         },
         "drupal-scaffold": {
             "allowed-packages": [
