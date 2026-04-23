@@ -3,12 +3,11 @@
 /drush/Commands/contrib/
 /drush/sites/lagoon.site.yml
 /vendor/
-/web
 
-# dont ignore these
+
+/web/*
 !/web/minisite1
 !/web/minisite1/**
-/web/*
 !/web/modules/
 /web/modules/*
 !/web/modules/custom/
