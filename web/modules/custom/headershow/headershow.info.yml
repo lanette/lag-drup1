@@ -1,0 +1,5 @@
+name: Header Show
+type: module
+description: Displays all request headers on /headershow
+core_version_requirement: ^11
+package: Custom

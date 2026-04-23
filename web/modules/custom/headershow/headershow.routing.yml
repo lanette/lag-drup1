@@ -1,0 +1,7 @@
+headershow.page:
+  path: '/headershow'
+  defaults:
+    _controller: '\Drupal\headershow\Controller\HeaderShowController::page'
+    _title: 'Request Headers'
+  requirements:
+    _permission: 'access content'
